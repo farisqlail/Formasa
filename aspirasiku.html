@@ -6,7 +6,7 @@
   <link rel="icon" type="image/png" href="assets/img/logo.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Buat Aspirasimu | Foramasa
+    Dashboard Faris | Foramasa
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
 
@@ -44,13 +44,13 @@
               <p>Home</p>
             </a>
           </li>
-          <li class="active">
+          <li>
             <a href="aspirasi.html">
               <i class="bx bxs-envelope-open design_app"></i>
               <p>Aspirasi</p>
             </a>
           </li>
-          <li>
+          <li class="active">
             <a href="aspirasiku.html">
               <i class="now-ui-icons files_paper"></i>
               <p>Aspirasiku</p>
@@ -63,6 +63,7 @@
           </a>
           </li>
         </ul>
+        
       </div>
     </div>
     <div class="main-panel" id="main-panel">
@@ -96,6 +97,19 @@
               </div>
             </form>
             <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="now-ui-icons ui-1_bell-53"></i>
+                    <p>
+                    <span class="d-lg-none d-md-block">Some Actions</span>
+                    </p>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                    <ul>
+                        <li><img src="./assets/img/favicon.png" width="35px" alt=""></li>
+                    </ul>
+                </div>
+              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="now-ui-icons users_single-02"></i>
@@ -116,49 +130,74 @@
 
       <div class="panel-header panel-header-sm"></div>
 
-    <!-- Content -->
+      <!-- content -->
       <div class="content">
-        <div class="card">
-            <div class="card-header">
-                <h4>Buat Aspirasi</h4>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Aspirasi Ku</h4>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                        <table class="table">
+                            <thead class=" text-primary">
+                            <th>
+                                Penyampai
+                            </th>
+                            <th>
+                                Kategori
+                            </th>
+                            <th>
+                                Deskripsi
+                            </th>
+                            <th class="text-right">
+                                Dukung 
+                            </th>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                Faris
+                                </td>
+                                <td>
+                                Politic
+                                </td>
+                                <td>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit ....
+                                </td>
+                                <td class="text-right">
+                                <button class="btn" style="background-color: #dc3545;">Delete</button>
+                                <button class="btn" style="background-color: #cbdc35;">Edit</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                Novan
+                                </td>
+                                <td>
+                                Ekonomi
+                                </td>
+                                <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit ..
+                                </td>
+                                <td class="text-right">
+                                <button class="btn" style="background-color: #dc3545;">Delete</button>
+                                <button class="btn" style="background-color: #dccb35;">Edit</button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="card-body">
-              <form action="">
-                <div class="form-group">
-                  <label for="">Judul Aspirasi</label>
-                  <input type="text" class="form-control" placeholder="Judul Aspirasi" name="" id="">
-                </div>
-
-                <div class="form-group">
-                  <label for="">Kategori Aspirasi</label>
-                  <select name="" id="" class="form-control">
-                    <option value="">Politic</option>
-                    <option value="">Ekonomi</option>
-                    <option value="">Edukasi</option>
-                  </select>
-                </div>
-
-                <div class="form-group">
-                  <label for="">Deskripsi</label>
-                    <textarea rows="4" cols="80" class="form-control" placeholder="Tulis Aspirasimu" value="Mike"></textarea>
-                </div>
-                
-                <div class="form-group d-flex justify-content-end">
-                  <button class="btn" style="background-color: #dc3545;">Kirim</button>
-                </div>
-            </form>
-
-            </div>
-
-        </div>  
-      </div>
-
-    
-
-
+          </div>
+      <!-- End Content -->
 
     <!-- Footer -->
-      <footer class="footer">
+    <footer class="footer">
         <div class=" container-fluid ">
           <div class="copyright" id="copyright">
             &copy; <script>
@@ -167,6 +206,8 @@
           </div>
         </div>
       </footer>
+    </div>
+  </div>
   <!-- End Footer -->
 
   <!--   Core JS Files   -->
