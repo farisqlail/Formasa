@@ -10,11 +10,13 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +34,7 @@
   <link rel="icon" href="assets/img/logo.png">
 
   <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Grand+Hotel&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Grand+Hotel&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -43,7 +45,7 @@
 
       <div class="logo mr-auto">
         <h1 class="text-light"><a href="index.html"><span>Formasa</span></a></h1>
-       
+
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -52,51 +54,55 @@
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Features</a></li>
           <li><a href="#news">News</a></li>&nbsp;
-          <li><a type="button" data-target="#login" data-toggle="modal" class="btn btn-light btn-md my-2 my-sm-0" style="color: #b93f3f;">Login</a>
+          <li><a type="button" data-target="#login" data-toggle="modal" class="btn btn-light btn-md my-2 my-sm-0"
+              style="color: #b93f3f;">Login</a>
           </li>
         </ul>
       </nav><!-- .nav-menu -->
-      
-      
-    </div>
-    
-  </header><!-- End Header -->
-  
-  
-  <!-- Modal -->
-    <div class="container">
-      <div class="modal fade" style="margin-left: 5.5px;" id="login" tabindex="-1" role="dialog" aria-labelledby="loginTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-body">
-              <h1 class="text-center" style="font-family: 'Grand Hotel', cursive; color: #b93f3f;">Login</h1>
-              <input type="text" class="form-control" placeholder="Email ...."><br>
-              <input type="password" class="form-control" placeholder="Password ...."><br>
-              <button class="btn btn-block" style="background-color: #b93f3f; color: #fff;">Login</button>
-              <p class="text-center">Belum Punya Akun ? <a data-toggle="modal" style="color: #b93f3f;" data-target="#register">Buat Akun</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  <!-- End Modal -->
 
-  <!-- Modal Register -->
-    <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="registerTitle" aria-hidden="true">
+
+    </div>
+
+  </header><!-- End Header -->
+
+
+  <!-- Modal -->
+  <div class="container">
+    <div class="modal fade" style="margin-left: 5.5px;" id="login" tabindex="-1" role="dialog"
+      aria-labelledby="loginTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-body">
-            <h1 class="text-center" style="font-family: 'Grand Hotel', cursive; color: #b93f3f;">Register</h1>
-            <input type="text" class="form-control" placeholder="Nama ...."><br>
+            <h1 class="text-center" style="font-family: 'Grand Hotel', cursive; color: #b93f3f;">Login</h1>
             <input type="text" class="form-control" placeholder="Email ...."><br>
             <input type="password" class="form-control" placeholder="Password ...."><br>
-            <input type="password" class="form-control" placeholder="Ulangi Password ....."><br>
-            <button class="btn btn-block" style="color: #fff; background-color: #b93f3f;">Register</button>
-            <p class="text-center">Sudah Punya Akun ? <a data-toggle="modal" style="color: #b93f3f;" data-target="#register">Login</a></p>
+            <a href="dashboard.html" class="btn btn-block" style="background-color: #b93f3f; color: #fff;">Login</a>
+            <p class="text-center">Belum Punya Akun ? <a data-toggle="modal" style="color: #b93f3f;"
+                data-target="#register">Buat Akun</a></p>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  <!-- End Modal -->
+
+  <!-- Modal Register -->
+  <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="registerTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h1 class="text-center" style="font-family: 'Grand Hotel', cursive; color: #b93f3f;">Register</h1>
+          <input type="text" class="form-control" placeholder="Nama ...."><br>
+          <input type="text" class="form-control" placeholder="Email ...."><br>
+          <input type="password" class="form-control" placeholder="Password ...."><br>
+          <input type="password" class="form-control" placeholder="Ulangi Password ....."><br>
+          <button class="btn btn-block" style="color: #fff; background-color: #b93f3f;">Register</button>
+          <p class="text-center">Sudah Punya Akun ? <a data-toggle="modal" style="color: #b93f3f;"
+              data-target="#register">Login</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- End Modal Register -->
 
 
@@ -106,9 +112,9 @@
     <div class="container">
       <div class="row mt-3">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">
-          <h1 style="font-family: 'Grand Hotel', cursive; font-size: 80px;">Formasa</h1 ><br>
-            <div class="line" style="border: 5px solid #b93f3f; border-radius: 5px;"></div>
-          <h5>Sampaikan aspirasi, saran, kritik mu disini dengan Formasa</h5>
+          <h1 style="font-family: 'Grand Hotel', cursive; font-size: 80px;">Formasa</h1><br>
+          <div class="line" style="border: 5px solid #b93f3f; border-radius: 5px;"></div>
+          <h5>Sampaikan aspirasi, saran, kritikmu di sini dengan Formasa</h5>
           <a href="#about" class="btn-get-started scrollto">Mulai Suarakan aspirasimu</a>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img">
@@ -144,7 +150,7 @@
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <i class="bx bx-support"></i>
                 <h4>Manfaat Bagi Pemerintah</h4>
-                <p>Mempermudah pemerintah didalam menampung aspirasi dari masyarakat</p>
+                <p>Mempermudah pemerintah didalam menampung aspirasi dari masyarakat.</p>
               </div>
             </div>
           </div>
@@ -167,7 +173,8 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-pie-chart-alt-2"></i></div>
               <h4 class="title">Polling System</h4>
-              <p class="description">Adanya fitur live voting dapat memudahkan pemerintah dalam mengetahui aspirasi masyarakat.</p>
+              <p class="description">Adanya fitur live voting dapat memudahkan pemerintah dalam mengetahui aspirasi
+                masyarakat.</p>
             </div>
           </div>
 
@@ -175,7 +182,8 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bxs-megaphone"></i></div>
               <h4 class="title">Aspiration Systems</h4>
-              <p class="description">EMasyarakat juga bisa memberikan vote pada aspirasi tertentu untuk menjadi pantauan utama pemerintah.</p>
+              <p class="description">Masyarakat juga bisa memberikan vote pada aspirasi tertentu untuk menjadi pantauan
+                utama pemerintah.</p>
             </div>
           </div>
 
@@ -183,7 +191,8 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-envelope"></i></div>
               <h4 class="title">Suggestions and Critics System</h4>
-              <p class="description">Pemerintah dapat melihat statistik dari banyaknya ide, laporan maupun saran dan kritik sehingga pemerintah bisa melihat topik utama dari aspirasi masyarakat.</p>
+              <p class="description">Pemerintah dapat melihat statistik dari banyaknya ide, laporan maupun saran dan
+                kritik sehingga pemerintah bisa melihat topik utama dari aspirasi masyarakat.</p>
             </div>
           </div>
 
@@ -229,26 +238,28 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-      </div>
+        </div>
 
       </div>
     </section><!-- End News Section -->
 
     <div class="banner">
-      <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" uk-parallax="bgy: -200" data-src="./assets/img/banner.png" uk-img>
+      <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
+        uk-parallax="bgy: -200" data-src="./assets/img/banner.png" uk-img>
         <div class="container">
           <div class="row">
             <div class="col">
               <h1 style="font-family: 'Grand Hotel', cursive; font-size: 90px; color: #e4e4e4;">Formasa</h1>
             </div>
             <div class="col mt-3">
-              <p class="text-white">Formasa ingin membantu masyarakat dan pemerintah dalam menyediakan wadah untuk menyampaikan aspirasi dari masyarakat ke pemerintah.</p>
+              <p class="text-white">Formasa ingin membantu masyarakat dan pemerintah dalam menyediakan wadah untuk
+                menyampaikan aspirasi dari masyarakat ke pemerintah.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -262,13 +273,13 @@
           <div class="col-lg-3 col-md-6 footer-contact" data-aos="fade-up" data-aos-delay="100">
             <h3 style="font-family: 'Grand Hotel', cursive;  font-size: 60px;">Formasa</h3>
             <p>
-              <strong>Email:</strong> formasa@gmail.com<br>
+              <strong>Email :</strong> formasa@gmail.com<br>
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links ml-auto" data-aos="fade-up" data-aos-delay="400">
             <h4>Share Kepada Temanmu</h4>
-            <p>Share keteman-temanmu yang ingin memberikan aspirasinya.</p>
+            <p>Share ke teman-temanmu yang ingin memberikan aspirasinya.</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
